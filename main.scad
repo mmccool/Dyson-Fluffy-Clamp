@@ -15,19 +15,20 @@ dyson_h = 8;
 dyson_rr = 1;
 dyson_br = 18/2;
 
-clamp_t = 2;
+clamp_t = 3
+;
 clamp_bg = 2;
 clamp_r = dyson_r + clamp_t;
-clamp_h = 15;
+clamp_h = 20;
 clamp_bh = 15;
 clamp_cc = 3;
 
-clamp_br = m3_hole_radius;
-clamp_cr = m3_cap_radius;
-clamp_rr = clamp_cr + 1;
+clamp_br = m3_hole_radius + 0.2;
+clamp_cr = m3_cap_radius + 0.5;
+clamp_rr = clamp_cr + 2;
 clamp_bo = dyson_r + clamp_rr + 2;
 clamp_ch = m3_cap_height;
-clamp_nr = m3_nut_radius;
+clamp_nr = m3_nut_radius + 0.8;
 clamp_nh = m3_locknut_height;
 
 clamp_sm = 8*sm;
