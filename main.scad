@@ -25,7 +25,7 @@ clamp_bg = 2;
 clamp_r = dyson_r + clamp_t;
 clamp_h = 20;
 clamp_bh = 15;
-clamp_cc = 3;
+clamp_cc = 3.5;
 
 clamp_br = m3_hole_radius + 0.2;
 clamp_cr = m3_cap_radius + 0.5;
@@ -130,4 +130,5 @@ module clamp() {
 
 }
 
-clamp();
+// orient for printing
+translate([0,0,clamp_h]) rotate([180,0,0]) clamp();
