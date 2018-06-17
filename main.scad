@@ -18,6 +18,7 @@ dyson_w = 23;
 dyson_h = 8;
 dyson_rr = 1;
 dyson_br = 18/2;
+dyson_fr = 2.7;
 
 clamp_t = 3;
 clamp_bg = 2;
@@ -117,8 +118,16 @@ module clamp() {
       // gap in clamp to allow bolts to tighten
       translate([-clamp_bg/2,-dyson_r-clamp_bo+clamp_t+1,0])
         cube([clamp_bg,dyson_r+clamp_t+1,clamp_h+2]);
+      // fillet clearance
+      translate([-dyson_w/2+1,dyson_r-4,0]) 
+        rotate(7)
+          cylinder(r=dyson_fr,h=clamp_h+2,$fn=4);
+      translate([ dyson_w/2-1,dyson_r-4,0]) 
+        rotate(-7)
+          cylinder(r=dyson_fr,h=clamp_h+2,$fn=4);
     }
   }
+
 }
 
 clamp();
