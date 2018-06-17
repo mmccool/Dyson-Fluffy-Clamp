@@ -14,6 +14,8 @@ clamp occasionally.
 
 Printed in PETG at 100% infill for strength.
 
+[Available from Thingiverse](https://www.thingiverse.com/thing:2964794)
+
 [CC-BY 3.0 License](LICENSE.md)
 
 ![Rendering](clamp.png)
