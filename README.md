@@ -1,2 +1,18 @@
 # Dyson-Fluffy-Clamp
 Clamp to reinforce broken Dyson fluffy (DC74) latch.
+To be applied after gluing latch back in place; this clamp is to
+relieve the strain and keep it from breaking again.  You also need
+two M3 x 15mm cap-head bolts and two M3 locknuts.  Low-profile 3mm height
+will end up being flush with the surface, but regular locknuts will also work.
+Regular nuts would work for a while but you might have to retighten the
+clamp occasionally.
+
+Printed in PETG at 100% infill for strength.
+
+[CC-BY 3.0 License](LICENSE.md)
+
+![Rendering](clamp.png)
+
+![Printed, Top View](top.jpg)
+
+![Printed, Bottom View](bottom.jpg)
